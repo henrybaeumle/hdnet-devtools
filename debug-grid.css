@@ -1,0 +1,36 @@
+.debug-grid {
+	display: none;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 10000;
+	opacity: 0.5;
+}
+
+.debug-grid .container {
+	background-color: hotpink;
+	height: 100vh;
+}
+
+.debug-grid .container .row {
+	height: 100%;
+}
+
+.debug-grid .container .row .debug-col {
+	height: 100%;
+	border-left: 1px solid black;
+}
+
+.debug-grid .container .row .debug-col:last-child {
+	border-right: 1px solid black;
+}
+
+.debug-grid .container .row .debug-col .debug-col-inner {
+	height: 100%;
+}
+
+.debug-show {
+	display: block !important;
+}
