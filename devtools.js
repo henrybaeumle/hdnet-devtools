@@ -1,6 +1,6 @@
-chrome.devtools.panels.create("HDNET Css Devtools",
+chrome.devtools.panels.create("HDNET Devtool",
     "MyPanelIcon.png",
-    "Panel.html",
+    "panel.html",
     function(panel) {
       // code invoked on panel creation
     }
