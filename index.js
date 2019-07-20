@@ -1,11 +1,3 @@
-console.log('START');
-var linkElement = this.document.createElement('link');
-linkElement.setAttribute('rel', 'stylesheet');
-linkElement.setAttribute('type', 'text/css');
-linkElement.setAttribute('href', 'data:text/css;charset=UTF-8,' + encodeURIComponent('.debug-grid {display: none;pointer-events: none;position: fixed;top: 0;width: 100%;height: 100vh;z-index: 10000;opacity: 0.5;}.debug-grid .container {height: 100vh;}.debug-grid .container .row {height: 100%;}.debug-grid .container .row .debug-col {height: 100%;border-left: 1px solid black;}.debug-grid .container .row .debug-col:last-child {border-right: 1px solid black;}.debug-grid .container .row .debug-col .debug-col-inner {height: 100%; background-color: #d52810;}.debug-show {display: block !important;}'));
-document.head.appendChild(linkElement);
-
-
 /*
 key     | task
 ----------------
@@ -87,7 +79,5 @@ class Grid {
         } catch {}
     };
 }
-console.log(linkElement);
-new Grid().mount();
 
-console.log('END');
+new Grid().mount();

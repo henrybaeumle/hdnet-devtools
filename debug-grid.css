@@ -10,7 +10,6 @@
 }
 
 .debug-grid .container {
-	background-color: hotpink;
 	height: 100vh;
 }
 
@@ -29,6 +28,7 @@
 
 .debug-grid .container .row .debug-col .debug-col-inner {
 	height: 100%;
+	background-color: hotpink;
 }
 
 .debug-show {
