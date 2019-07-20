@@ -1,22 +1,26 @@
 {
-  "name": "hdnet-css-devtools",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "hdnet-devtools",
+  "version": "1.0.0",
+  "description": "My smashing Nuxt.js project",
+  "author": "henrybaeumle &amp; schulke-214",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/henrybaeumle/hdnet-css-devtools.git"
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "bootstrap": "^4.1.3",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0",
+    "nuxt": "^2.0.0"
   },
-  "author": "henrybaeumle & schulke-214",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/henrybaeumle/hdnet-css-devtools/issues"
-  },
-  "homepage": "https://github.com/henrybaeumle/hdnet-css-devtools#readme",
   "devDependencies": {
-    "webpack": "^4.36.1"
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "nodemon": "^1.18.9"
   }
 }
